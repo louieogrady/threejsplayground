@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './app.component.pug',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'threejsapp';
+export class AppComponent implements OnInit, OnDestroy {
+
+  ngOnInit() {
+
+  }
+
+  ngOnDestroy() {
+
+  }
+
+
+
 }
